@@ -1,0 +1,17 @@
+**/target/
+.idea
+*.iml
+*.class
+*Test.java
+**/test/
+
+# 本地私有配置：真实密钥只放这里，不入库
+application-local.yml
+application-local.yaml
+*.bak
+*.log
+
+# 工具与系统文件
+.workbuddy/
+.DS_Store
+Thumbs.db
